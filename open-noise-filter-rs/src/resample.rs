@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 //! Context-rate adapter around the 48 kHz frame engine.
 //!
 //! Input is interpolated at the internal rate and output is interpolated back

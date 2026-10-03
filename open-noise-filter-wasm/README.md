@@ -113,4 +113,4 @@ its [model rebuild guide](../open-noise-filter-rs/README.md#rebuilding-the-model
 
 ## License
 
-MIT — see [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Apache-2.0 for original OpenNoiseFilter code — see [LICENSE](LICENSE) and [NOTICE](NOTICE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

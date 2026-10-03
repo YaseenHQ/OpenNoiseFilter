@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * open-noise-filter — AudioWorkletProcessor (FastEnhancer tiers + gate).
  *

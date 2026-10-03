@@ -1,3 +1,6 @@
+# Copyright 2026 YaseenHQ
+# SPDX-License-Identifier: Apache-2.0
+
 """FastEnhancer offline reference — the equivalence anchor for the worklet.
 
 Pipeline taken verbatim from the repo's scripts/test_onnx_spec.py:

@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 //! Multi-channel convenience: one state per channel, interleaved or
 //! planar access. Mirrors the worklet's behavior — 48 kHz channels emit
 //! zero-filled output for the fixed 1024-sample startup latency; resampled

@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * open-noise-filter/compat — an alternate node-class API for callers that
  * prefer managing the worklet module and wasm binary themselves:

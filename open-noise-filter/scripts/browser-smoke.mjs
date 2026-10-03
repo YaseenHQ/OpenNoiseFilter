@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /** Packed-package consumer test: npm run test:browser.
  * Install Chromium once with `npx playwright install chromium`.
  * Optional BROWSER_EXECUTABLE selects an installed Chromium/Chrome/Edge.

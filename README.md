@@ -81,6 +81,6 @@ independent npm, crate, and GitHub release steps.
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Each component also includes its own license
+Apache-2.0 for original OpenNoiseFilter code — see [LICENSE](LICENSE) and [NOTICE](NOTICE). Each component also includes its own license
 and third-party notices so they travel with separately distributed
 packages. FastEnhancer model attribution is retained in those notices.

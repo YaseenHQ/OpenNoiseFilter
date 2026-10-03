@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 // Compiles the vendored onnx2c-generated C for all three FastEnhancer tiers.
 // Each file is compiled with -Dentry=fe_<tier>_entry so their identical
 // `entry` symbols don't collide — tier selection is at runtime in Rust.

@@ -1,3 +1,6 @@
+# Copyright 2026 YaseenHQ
+# SPDX-License-Identifier: Apache-2.0
+
 """Rebuild a lowered model with outputs reordered (cache outs first, spec last).
 
 onnx2c's codegen is sensitive to graph-output ordering on this graph: with the

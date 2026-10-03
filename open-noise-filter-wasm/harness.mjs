@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * Loads the library's AudioWorkletProcessor via `new Function` so a built wasm
  * can be driven frame-by-frame in Node. The library repo is located via

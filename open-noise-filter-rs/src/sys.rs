@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 //! FFI to the per-tier onnx2c `entry` functions (symbol-renamed at build
 //! time to fe_t_entry / fe_b_entry / fe_s_entry). Signature per tier:
 //! entry(spec_in, cache_in_0..K, cache_out_0..K, spec_out) with K = 2 for

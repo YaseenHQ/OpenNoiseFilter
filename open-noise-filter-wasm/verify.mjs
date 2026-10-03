@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * Full equivalence check, all tiers: ONNX Runtime reference → single-frame
  * spectrum diff → whole-clip audio diff, against the built WASM in out/.

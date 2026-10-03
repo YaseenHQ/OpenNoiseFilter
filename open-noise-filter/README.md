@@ -291,5 +291,5 @@ executable instead of downloading Chromium.
 
 ## License
 
-MIT — see [LICENSE](LICENSE); third-party components in
+Apache-2.0 for original OpenNoiseFilter code — see [LICENSE](LICENSE) and [NOTICE](NOTICE); third-party components in
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 export function loadNpyF32(p) {
   const b = readFileSyncRef(p);
   if (b.subarray(0, 6).toString("latin1") !== "\x93NUMPY") throw new Error("not npy");

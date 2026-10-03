@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * Per-frame CPU cost for every tier × variant, measured through the library's
  * worklet code (same path the audio thread takes).

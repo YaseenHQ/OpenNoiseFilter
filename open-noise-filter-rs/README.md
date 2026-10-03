@@ -114,6 +114,6 @@ Build time is ~2 min for all three tiers.
 
 ## License
 
-MIT — see [LICENSE](LICENSE). The generated C model sources derive from
+Apache-2.0 for original OpenNoiseFilter code — see [LICENSE](LICENSE) and [NOTICE](NOTICE). The generated C model sources derive from
 FastEnhancer checkpoints by AHN Sung Hwan; the attribution and license are
 included in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

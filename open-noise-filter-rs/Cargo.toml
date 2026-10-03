@@ -3,12 +3,12 @@ name = "open-noise-filter-rs"
 version = "0.1.0"
 edition = "2021"
 description = "FastEnhancer neural noise suppression, native — the same model and pipeline as the open-noise-filter Web Audio package"
-license = "MIT"
+license = "Apache-2.0"
 repository = "https://github.com/YaseenHQ/OpenNoiseFilter"
 homepage = "https://github.com/YaseenHQ/OpenNoiseFilter/tree/main/open-noise-filter-rs"
 keywords = ["noise-suppression", "audio", "dsp", "denoise", "realtime"]
 categories = ["multimedia::audio", "algorithms"]
-authors = ["Yaseen"]
+authors = ["YaseenHQ"]
 build = "build.rs"
 
 [dependencies]

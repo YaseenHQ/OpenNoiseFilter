@@ -1,3 +1,6 @@
+# Copyright 2026 YaseenHQ
+# SPDX-License-Identifier: Apache-2.0
+
 """Lower ONNX GRU nodes (T=1, forward, initial_h present) into basic ops.
 
 FastEnhancer's exported graphs run each GRU for a single timestep per call,

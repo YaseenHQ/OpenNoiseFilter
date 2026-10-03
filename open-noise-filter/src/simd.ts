@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * Shared WebAssembly SIMD probe — a minimal module using a v128 instruction;
  * validates only where WASM SIMD exists.

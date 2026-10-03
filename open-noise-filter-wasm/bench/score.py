@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Copyright 2026 YaseenHQ
+# SPDX-License-Identifier: Apache-2.0
+
 """Score bench outputs: DNSMOS P.835 (SIG/BAK/OVRL) + STOI + SI-SDR.
 
 Reads bench/corpus/{id}_clean.wav + {id}_noisy.wav and bench/out/<engine>/{id}.wav.

@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 import { createNoiseFilter } from "../dist/index.mjs";
 
 const $ = (id) => document.getElementById(id);

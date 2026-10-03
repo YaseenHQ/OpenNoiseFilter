@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * open-noise-filter — shared DSP: radix-2 FFT and FrameEngine, the
  * streaming STFT → FastEnhancer WASM → iSTFT → overlap-add pipeline used

@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * Equivalence test: compiled WASM vs the ONNX Runtime reference.
  * Rebuilds reference.py's exact pipeline (periodic hann, right-pad one hop,

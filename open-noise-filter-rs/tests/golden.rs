@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 //! Golden-vector test: the native port must track the WASM build's output
 //! bit-for-bit-ish. tests/data/y_{t,b,s}.f32 are produced by running
 //! test/reference_x.f32 through the shipped WASM worklet (see README);

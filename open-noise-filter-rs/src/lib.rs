@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 //! open-noise-filter-rs — FastEnhancer neural noise suppression, native.
 //!
 //! Same model and pipeline as the `open-noise-filter` Web Audio package:

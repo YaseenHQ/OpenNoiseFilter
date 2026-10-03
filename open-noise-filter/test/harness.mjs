@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * Node harness: loads the esbuild-bundled worklet (and worker) sources via
  * `new Function` so each instance can get its own sampleRate. The fake port

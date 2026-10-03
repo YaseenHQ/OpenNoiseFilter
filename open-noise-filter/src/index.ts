@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * open-noise-filter — FastEnhancer (arXiv:2509.21867) noise suppression for
  * Web Audio. WASM + AudioWorklet; heavy tiers run in Workers behind an

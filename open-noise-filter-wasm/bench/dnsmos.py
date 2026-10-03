@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+
 """DNSMOS P.835 scoring (SIG, BAK, OVRL, P808) for bench/score.py.
 
 Extracted from real-tse/utils/dnsmos_eval.py — only the pieces score.py uses

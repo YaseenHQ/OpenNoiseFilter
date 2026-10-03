@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 //! FrameEngine port: streaming STFT → FastEnhancer (onnx2c C) → iSTFT →
 //! overlap-add. Mirrors the JS `FrameEngine` in `src/dsp.js` exactly:
 //! raw complex STFT in (power compression is inside the model), input

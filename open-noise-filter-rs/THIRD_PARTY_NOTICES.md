@@ -30,3 +30,29 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+## onnx2c
+
+The model C code is generated using onnx2c. Its compiler has the following
+permissive custom license (not an MIT or Apache license):
+
+```text
+ONNX2C LICENSE
+
+Onnx2c copyright is held by its authors listed below.
+
+You may use and distribute this software freely.
+You may not hold the authors liable if using or
+distributing this software causes anyone any harm.
+
+
+Authors:
+Kalle Raiskila
+Robin van Emden
+Youngsun Kong
+AUTOMATIC1111
+Thomas Lane
+Can Joshua Lehmann (emmtrix Technologies GmbH)
+Felix Kreutz (Infineon Technologies AG)
+Michael Schirmer
+```

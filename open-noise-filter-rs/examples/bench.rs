@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 use open_noise_filter::{DenoiseState, Tier, H};
 fn main() {
     for tier in [Tier::Tiny, Tier::Base, Tier::Small] {

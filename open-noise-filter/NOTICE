@@ -1,0 +1,12 @@
+OpenNoiseFilter
+Copyright 2026 YaseenHQ
+https://github.com/YaseenHQ/OpenNoiseFilter
+
+Original OpenNoiseFilter code is licensed under the Apache License, Version 2.0.
+The FastEnhancer checkpoints and their generated C/WASM model assets retain
+their upstream MIT license and attribution:
+Copyright (c) 2025 AHN Sung Hwan
+https://github.com/aask1357/fastenhancer
+
+See THIRD_PARTY_NOTICES.md in each component for the upstream license text.
+For separately packaged components, see the accompanying THIRD_PARTY_NOTICES.md.

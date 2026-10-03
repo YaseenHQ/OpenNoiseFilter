@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /* Stateful wrapper over onnx2c entry() — Base tier (3 caches, 36x36). */
 typedef float Spec[513][1][2];
 typedef float CacheT[36][36];

@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /** Normalize the path form Git Bash can inject into a Windows environment. */
 export function normalizeOnnx2cPath(value) {
   const gitMangle = /^(?:[A-Za-z]:[\\/])?Program Files[\\/]Git[\\/](mnt[\\/].*)$/.exec(value);

@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /* Stateful wrapper over onnx2c entry() — Tiny tier (2 caches, 24x20).
  * NOTE: normalized graphs order outputs [cache_out_0, cache_out_1, spec_out]. */
 typedef float Spec[513][1][2];

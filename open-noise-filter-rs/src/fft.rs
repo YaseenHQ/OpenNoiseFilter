@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 //! Radix-2 complex FFT — a direct port of the JS `makeFFT` in the
 //! library's `src/dsp.js` (precomputed bit-reversal + per-stage twiddles,
 //! f64 internally, identical values to the JS/Math pipeline).

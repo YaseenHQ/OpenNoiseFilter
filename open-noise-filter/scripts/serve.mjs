@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /** Zero-dependency static server for the demo: `npm run demo`, open
  *  http://localhost:8080/demo/ */
 import { createServer } from "http";

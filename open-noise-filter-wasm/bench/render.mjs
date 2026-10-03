@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * Benchmark renderer: runs every corpus clip through every engine's REAL
  * worklet code in Node (same shim approach as test/harness.mjs).

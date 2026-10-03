@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 import { createNoiseFilter } from "open-noise-filter";
 import { LiveKitNoiseFilter } from "open-noise-filter/livekit";
 import worklet from "open-noise-filter/worklet.js?url";

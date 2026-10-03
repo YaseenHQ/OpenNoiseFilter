@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 /** Minimal Web Audio / DOM fakes for testing src/index.ts + src/livekit.ts
  * in plain node. installFakes() sets the globals the library touches;
  * uninstallFakes() restores them. The bundled code only touches these at

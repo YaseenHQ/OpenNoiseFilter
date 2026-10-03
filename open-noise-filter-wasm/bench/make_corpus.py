@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Copyright 2026 YaseenHQ
+# SPDX-License-Identifier: Apache-2.0
+
 """Build the benchmark corpus: clean Arctic speech + MS-SNSD noise at fixed SNRs.
 
 Output layout (all 48 kHz mono 16-bit wav):

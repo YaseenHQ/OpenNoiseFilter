@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 import { build } from "esbuild";
 import { cpSync, mkdirSync, rmSync } from "fs";
 import { execFileSync } from "child_process";

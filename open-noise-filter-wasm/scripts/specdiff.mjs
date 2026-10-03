@@ -1,3 +1,6 @@
+// Copyright 2026 YaseenHQ
+// SPDX-License-Identifier: Apache-2.0
+
 import { readFileSync } from "fs";
 import { loadNpyF32 } from "./npy.mjs";
 const tier = process.argv[2] ?? "t";

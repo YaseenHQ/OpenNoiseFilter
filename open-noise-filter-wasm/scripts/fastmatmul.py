@@ -1,3 +1,6 @@
+# Copyright 2026 YaseenHQ
+# SPDX-License-Identifier: Apache-2.0
+
 """Post-pass: rewrite onnx2c's MatMul bodies to SIMD-friendly ikj loop order.
 
 onnx2c emits `for j { for k { Y[i][j] += A[i][k]*B[k][j] } }` — k innermost
