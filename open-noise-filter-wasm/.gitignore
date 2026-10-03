@@ -1,0 +1,13 @@
+build/
+out/
+node_modules/
+.venv/
+__pycache__/
+*.npy
+
+# benchmark artifacts (regenerable — see bench/README.md)
+bench/corpus/
+bench/out/
+bench/noise/
+bench/dnsmos_models/
+bench/arctic/

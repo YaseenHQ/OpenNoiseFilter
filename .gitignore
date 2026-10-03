@@ -1,0 +1,15 @@
+**/node_modules/
+**/dist/
+**/target/
+**/.venv/
+**/__pycache__/
+**/*.tgz
+**/*.npy
+open-noise-filter-wasm/build/
+open-noise-filter-wasm/out/
+open-noise-filter-wasm/bench/corpus/
+open-noise-filter-wasm/bench/out/
+open-noise-filter-wasm/bench/noise/
+open-noise-filter-wasm/bench/dnsmos_models/
+open-noise-filter-wasm/bench/arctic/
+release-artifacts/

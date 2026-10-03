@@ -1,0 +1,16 @@
+{
+  "name": "open-noise-filter-wasm",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Build tooling for open-noise-filter's FastEnhancer WASM (SIMD + scalar) and benchmark",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "verify": "node verify.mjs",
+    "cost": "node cost.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

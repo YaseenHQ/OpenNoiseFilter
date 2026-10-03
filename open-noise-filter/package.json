@@ -1,0 +1,76 @@
+{
+  "name": "open-noise-filter",
+  "version": "0.1.0",
+  "description": "Open-source neural noise suppression for the Web Audio API and LiveKit — FastEnhancer compiled to WASM, running in an AudioWorklet.",
+  "type": "module",
+  "sideEffects": false,
+  "license": "MIT",
+  "author": "Yaseen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YaseenHQ/OpenNoiseFilter.git",
+    "directory": "open-noise-filter"
+  },
+  "homepage": "https://github.com/YaseenHQ/OpenNoiseFilter/tree/main/open-noise-filter#readme",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./livekit": {
+      "types": "./dist/livekit.d.ts",
+      "import": "./dist/livekit.mjs",
+      "require": "./dist/livekit.cjs"
+    },
+    "./compat": {
+      "types": "./dist/compat.d.ts",
+      "import": "./dist/compat.mjs",
+      "require": "./dist/compat.cjs"
+    },
+    "./worklet.js": "./dist/worklet.js",
+    "./worker.js": "./dist/worker.js",
+    "./wasm/*": "./dist/wasm/*"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "node build.mjs",
+    "test": "node --test",
+    "test:browser": "node scripts/browser-smoke.mjs",
+    "demo": "npm run build && node scripts/serve.mjs",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "noise-suppression",
+    "denoise",
+    "speech-enhancement",
+    "web-audio",
+    "audio-worklet",
+    "wasm",
+    "webrtc",
+    "livekit",
+    "fastenhancer"
+  ],
+  "peerDependencies": {
+    "livekit-client": ">=2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "livekit-client": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "livekit-client": "^2.22.3",
+    "playwright": "^1.62.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.2"
+  }
+}

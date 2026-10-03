@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.wasm binary
+*.onnx binary
+*.f32 binary
+open-noise-filter-rs/csrc/*.c linguist-generated=true -diff

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>open-noise-filter demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 40em; margin: 3em auto; padding: 0 1em; line-height: 1.5; }
+    .row { display: flex; gap: 1em; align-items: center; flex-wrap: wrap; margin: 1em 0; }
+    label { display: flex; gap: .4em; align-items: center; }
+    #stats { font-family: ui-monospace, monospace; white-space: pre; background: #f4f4f4; padding: 1em; border-radius: 6px; }
+    .warn { color: #a40; }
+  </style>
+</head>
+<body>
+  <h1>open-noise-filter</h1>
+  <p class="warn">Use headphones — this demo plays your microphone back through the filter.</p>
+  <div class="row">
+    <button id="start">Start microphone</button>
+    <label>Quality
+      <select id="quality">
+        <option value="low">low</option>
+        <option value="medium" selected>medium</option>
+        <option value="high">high</option>
+        <option value="gate">gate</option>
+      </select>
+    </label>
+    <label>Channels
+      <select id="channels">
+        <option value="1" selected>mono</option>
+        <option value="2">stereo</option>
+      </select>
+    </label>
+    <label>Thread
+      <select id="thread">
+        <option value="" selected>auto</option>
+        <option value="audio">audio</option>
+        <option value="worker">worker</option>
+      </select>
+    </label>
+    <label><input type="checkbox" id="bypass"> Bypass</label>
+  </div>
+  <div id="stats">not running</div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

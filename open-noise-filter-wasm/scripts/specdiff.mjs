@@ -1,0 +1,17 @@
+import { readFileSync } from "fs";
+import { loadNpyF32 } from "./npy.mjs";
+const tier = process.argv[2] ?? "t";
+const wasmPath = process.env.FE_WASM ?? `out/fastenhancer_${tier}.wasm`;
+const { instance } = await WebAssembly.instantiate(readFileSync(wasmPath), {});
+const e = instance.exports;
+const inF = e.fe_in_ptr() >>> 2, outF = e.fe_out_ptr() >>> 2;
+e.fe_init();
+const si = loadNpyF32("dbg_spec_in.npy"), so = loadNpyF32(`dbg_spec_out_${tier}.npy`);
+const m = new Float32Array(e.memory.buffer);
+for (let i = 0; i < 1026; i++) m[inF + i] = si[i];
+e.fe_run();
+const m2 = new Float32Array(e.memory.buffer);
+let mx = 0;
+for (let i = 0; i < 1026; i++) mx = Math.max(mx, Math.abs(m2[outF + i] - so[i]));
+console.log(`${tier}: max|wasm-ort| = ${mx.toExponential(3)} ${mx < 1e-3 ? "OK" : "FAIL"}`);
+if (mx >= 1e-3) process.exit(1);
